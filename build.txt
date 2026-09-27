@@ -1,0 +1,2 @@
+# commond to build the app by pyinstaller
+pyinstaller launcher.py --clean --name "Field_Cal" --onedir --console --add-data "st_app.py;." --add-data "page_field_calc.py;." --add-data "data;data" --collect-all streamlit
